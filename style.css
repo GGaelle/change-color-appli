@@ -1,0 +1,29 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  text-align: center;
+}
+.changeColor {
+  text-transform: full-width;
+  font-size: 2rem;
+}
+.change {
+  font-size: 3rem;
+}
+.changeBtn {
+  color: #f15025;
+  border: 3px solid #f15025;
+  border-radius: 7px;
+  background: rgba(0,0,0,0.3);
+  font-size: 1.4rem;
+  padding: 0.35rem 0.5rem;
+  cursor: pointer;
+  outline: none;
+}
+.changeBtn:hover {
+  background: #000;
+}
